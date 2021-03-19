@@ -1,0 +1,98 @@
+<div class="csa-panel-form-heading assai-title padder-b-none" ng-if="c.data.hasApproval || c.data.hasGroupApproval">
+  <h2 class="h4 sp-attachments-header panel-title pull-left">
+    ${Approvers}
+  </h2>
+  <div class="clearfix"></div>
+</div>
+<div class="panel csa-panel-body assai-body b" ng-if="c.data.hasApproval || c.data.hasGroupApproval">
+  <div class="panel-body table-responsive" ng-if="c.data.hasApproval || c.data.hasGroupApproval">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">${Type}</th>
+          <th scope="col">${Name}</th>
+          <th scope="col">${State}</th>
+          <th scope="col">${Last Updated}</th>
+        </tr>
+      </thead>
+      <tbody ng-repeat="approver in data.approvals.approvers">
+        <tr>
+          <td></td>
+          <td>
+            <i class="fa fa-user"></i>
+            ${User}
+          </td>
+          <td>{{approver.approver.displayValue}}</td>
+          <td>
+            <div class="container-state">
+              <div
+               ng-class="{
+                  'dot-warning': approver.state.value == 'requested',
+                  'dot-danger': approver.state.value == 'cancelled' || approver.state.value == 'rejected',
+                  'dot-success': approver.state.value == 'approved',
+                  'dot-default': approver.state.value == 'not_required',
+                  'dot-orange': approver.state.value == 'not requested'
+               }"
+               class="dot"></div>
+            {{approver.state.displayValue}}
+            </div>
+          </td>
+          <td>{{approver.updated}}</td>
+        </tr>
+      </tbody>
+      <tbody ng-repeat="group in data.approvals.groups">
+        <tr>
+          <td>
+          	<a ng-click="group.open = !group.open">
+            	<i class="fa" ng-class="{'fa-chevron-down': !group.open, 'fa-chevron-up': group.open}"></i>
+            </a>
+          </td>
+          <td>
+            <i class="fa fa-users"></i>
+            ${Group}
+          </td>
+          <td>{{group.name}}</td>
+          <td>
+            <div class="container-state">
+              <div
+                   ng-class="{
+                             'dot-warning': group.state.value == 'requested',
+                             'dot-danger': group.state.value == 'cancelled' || group.state.value == 'rejected',
+                             'dot-success': group.state.value == 'approved',
+                             'dot-default': group.state.value == 'not_required' || group.state.value == 'duplicate',
+                             'dot-orange': group.state.value == 'not requested'
+                             }"
+                   class="dot"></div>
+              {{group.state.displayValue}}
+            </div>
+          </td>
+          <td>{{group.updated}}</td>
+        </tr>
+        <tr ng-if="group.open" ng-repeat="appr in group.approvals">
+          <td></td>
+          <td>
+          	<i class="fa fa-user"></i>
+            ${User}
+          </td>
+          <td>{{appr.approver.displayValue}}</td>
+          <td>
+            <div class="container-state">
+              <div
+               ng-class="{
+                  'dot-warning': appr.state.value == 'requested',
+                  'dot-danger': appr.state.value == 'cancelled' || appr.state.value == 'rejected',
+                  'dot-success': appr.state.value == 'approved',
+                  'dot-default': appr.state.value == 'not_required',
+                  'dot-orange': appr.state.value == 'not requested'
+               }"
+               class="dot"></div>
+            {{appr.state.displayValue}}
+            </div>
+          </td>
+          <td>{{appr.updated}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
