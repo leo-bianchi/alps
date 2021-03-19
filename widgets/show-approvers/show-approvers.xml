@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-03-19 16:45:21">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Update set relacionado com a criação da widget responsável por dar visibilidade das aprovações de uma requisição ao solicitante.</description>
+<inserted/>
+<name>[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>7bea5e141b0f2890eca40dcbe54bcb21</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>1a30a0f81b07289032822170f54bcb48</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_283f9adc1b0f2890eca40dcbe54bcbe6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">493ff950d7000200a9ad1e173e24d4be</sp_column><sp_widget display_value="ALP: Ticket Approvers">191f92101b4f2890eca40dcbe54bcbd6</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>otavio.almeida@alparservice.com.br</sys_created_by><sys_created_on>2021-03-18 12:43:08</sys_created_on><sys_id>283f9adc1b0f2890eca40dcbe54bcbe6</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_283f9adc1b0f2890eca40dcbe54bcbe6</sys_update_name><sys_updated_by>otavio.almeida@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 15:41:02</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=283f9adc1b0f2890eca40dcbe54bcbe6"/></record_update>]]></payload>
+<payload_hash>1159338811</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>1230a0f81b07289032822170f54bcb49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17845ff4cf00000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>92e78f909e076890396fef3c3d74d5c5</update_guid>
+<update_guid_history>92e78f909e076890396fef3c3d74d5c5:1159338811,683f9adc060f2890f7f175d2d31c44e8:1077428089</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_message_40326f941b47649032822170f54bcbb4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message"><sys_ui_message action="INSERT_OR_UPDATE"><application/><key>There are no approvals</key><language>pb</language><message>Não há aprovações</message><sys_class_name>sys_ui_message</sys_class_name><sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by><sys_created_on>2021-03-18 17:35:56</sys_created_on><sys_id>40326f941b47649032822170f54bcbb4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>There are no approvals</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_message_40326f941b47649032822170f54bcbb4</sys_update_name><sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 17:36:12</sys_updated_on></sys_ui_message></record_update>]]></payload>
+<payload_hash>-1540184745</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>1a30a0f81b07289032822170f54bcb4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1784668bd520000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>There are no approvals</target_name>
+<type>Message</type>
+<update_domain>global</update_domain>
+<update_guid>a542e3d452476490fa02665a9362d732</update_guid>
+<update_guid_history>a542e3d452476490fa02665a9362d732:-1540184745,e5322f94fa4764908f39c5cc82ae5aff:-1103516549</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_191f92101b4f2890eca40dcbe54bcbd6</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function attachMate($scope, nowAttachmentHandler, $rootScope, spUtil, spModal, $log, spAriaUtil,$document) {
+	var c = this;
+	
+	spUtil.recordWatch($scope, "sysapproval_approver", "sysapproval="+c.data.sys_id, function(name, data) {
+		 c.server.get().then(function(resp){
+			 c.data.hasApproval = resp.data.hasApproval;
+			 c.data.hasGroupApproval = resp.data.hasGroupApproval;
+			 c.data.sys_id = resp.data.sys_id;
+			 c.data.approvals = resp.data.approvals;
+		 });
+	});
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.csa-panel-form-heading{
+ margin-top: 16px; 
+}
+
+table{
+  margin-bottom: 0; 
+}
+
+.csa-panel-body{
+  padding: 0 !important;
+}
+
+.panel-body{
+  padding: 8px 0 !important;
+}
+
+.fa-chevron-down, .fa-chevron-up{
+  margin-left: 8px; 
+}
+
+.fa-user, .fa-users{
+  color: #f15a24 ;
+}
+
+.container-state{
+  display: flex;
+  align-items: center;
+
+  .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    margin-right: 8px;
+    margin-top: -1px;
+  }
+
+  .dot-warning{
+    background-color: khaki;
+  }
+
+  .dot-danger{
+    background-color: tomato;
+  }
+
+  .dot-success{
+    background-color: lightgreen;
+  }
+
+  .dot-default{
+    background-color: #dddddd;
+  }
+  
+  .dot-orange{
+    background-color: orange;
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;alp_ticket_approvers&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;ALP: Ticket Approvers&lt;/name&gt;&lt;option_schema&gt;[{"hint":"ID of referenced record","name":"record_id","section":"Data","label":"Record ID","type":"string"},{"hint":"Table name of referenced record","name":"record_table","section":"Data","label":"Record Table","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	data.hasApproval = true;
+	data.hasGroupApproval = true;
+	data.sys_id = $sp.getParameter('sys_id');
+	data.approvals = new TicketApproversUtils().getApprovals(data.sys_id);
+	
+	if(!data.approvals.approvers){
+		 data.hasGroupApproval = false;
+	} else {
+		if(!data.approvals.approvers.length){
+			data.hasGroupApproval = false;
+		}
+	}
+	if(!data.approvals.groups){
+		 data.hasApproval = false;
+	} else {
+		if(!data.approvals.groups.length){
+			data.hasApproval = false;
+		}
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-18 12:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;191f92101b4f2890eca40dcbe54bcbd6&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name&gt;ALP: Ticket Approvers&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_191f92101b4f2890eca40dcbe54bcbd6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-18 20:15:50&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="csa-panel-form-heading assai-title padder-b-none" ng-if="c.data.hasApproval || c.data.hasGroupApproval"&gt;
+  &lt;h2 class="h4 sp-attachments-header panel-title pull-left"&gt;
+    ${Approvers}
+  &lt;/h2&gt;
+  &lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="panel csa-panel-body assai-body b" ng-if="c.data.hasApproval || c.data.hasGroupApproval"&gt;
+  &lt;div class="panel-body table-responsive" ng-if="c.data.hasApproval || c.data.hasGroupApproval"&gt;
+    &lt;table class="table"&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th scope="col"&gt;&lt;/th&gt;
+          &lt;th scope="col"&gt;${Type}&lt;/th&gt;
+          &lt;th scope="col"&gt;${Name}&lt;/th&gt;
+          &lt;th scope="col"&gt;${State}&lt;/th&gt;
+          &lt;th scope="col"&gt;${Last Updated}&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody ng-repeat="approver in data.approvals.approvers"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+            &lt;i class="fa fa-user"&gt;&lt;/i&gt;
+            ${User}
+          &lt;/td&gt;
+          &lt;td&gt;{{approver.approver.displayValue}}&lt;/td&gt;
+          &lt;td&gt;
+            &lt;div class="container-state"&gt;
+              &lt;div
+               ng-class="{
+                  'dot-warning': approver.state.value == 'requested',
+                  'dot-danger': approver.state.value == 'cancelled' || approver.state.value == 'rejected',
+                  'dot-success': approver.state.value == 'approved',
+                  'dot-default': approver.state.value == 'not_required',
+                  'dot-orange': approver.state.value == 'not requested'
+               }"
+               class="dot"&gt;&lt;/div&gt;
+            {{approver.state.displayValue}}
+            &lt;/div&gt;
+          &lt;/td&gt;
+          &lt;td&gt;{{approver.updated}}&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+      &lt;tbody ng-repeat="group in data.approvals.groups"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+          	&lt;a ng-click="group.open = !group.open"&gt;
+            	&lt;i class="fa" ng-class="{'fa-chevron-down': !group.open, 'fa-chevron-up': group.open}"&gt;&lt;/i&gt;
+            &lt;/a&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;i class="fa fa-users"&gt;&lt;/i&gt;
+            ${Group}
+          &lt;/td&gt;
+          &lt;td&gt;{{group.name}}&lt;/td&gt;
+          &lt;td&gt;
+            &lt;div class="container-state"&gt;
+              &lt;div
+                   ng-class="{
+                             'dot-warning': group.state.value == 'requested',
+                             'dot-danger': group.state.value == 'cancelled' || group.state.value == 'rejected',
+                             'dot-success': group.state.value == 'approved',
+                             'dot-default': group.state.value == 'not_required' || group.state.value == 'duplicate',
+                             'dot-orange': group.state.value == 'not requested'
+                             }"
+                   class="dot"&gt;&lt;/div&gt;
+              {{group.state.displayValue}}
+            &lt;/div&gt;
+          &lt;/td&gt;
+          &lt;td&gt;{{group.updated}}&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr ng-if="group.open" ng-repeat="appr in group.approvals"&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;
+          	&lt;i class="fa fa-user"&gt;&lt;/i&gt;
+            ${User}
+          &lt;/td&gt;
+          &lt;td&gt;{{appr.approver.displayValue}}&lt;/td&gt;
+          &lt;td&gt;
+            &lt;div class="container-state"&gt;
+              &lt;div
+               ng-class="{
+                  'dot-warning': appr.state.value == 'requested',
+                  'dot-danger': appr.state.value == 'cancelled' || appr.state.value == 'rejected',
+                  'dot-success': appr.state.value == 'approved',
+                  'dot-default': appr.state.value == 'not_required',
+                  'dot-orange': appr.state.value == 'not requested'
+               }"
+               class="dot"&gt;&lt;/div&gt;
+            {{appr.state.displayValue}}
+            &lt;/div&gt;
+          &lt;/td&gt;
+          &lt;td&gt;{{appr.updated}}&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1398699072</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>1e30a0f81b07289032822170f54bcb49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17846fae23d0000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>ALP: Ticket Approvers</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>3fc6c8283183a890e2bed5908389b9e4</update_guid>
+<update_guid_history>3fc6c8283183a890e2bed5908389b9e4:1398699072,4b218c28a08b6490165fc5160abd8ba8:-325196816,54556b540fcb68900281dc44a1fad741:1963406282,13c4afd093cb68904b31c7d2cfd59eb4:225042819,ea74af9072cb6890f37a43f2b1667fe3:626213119,da49c3d4d3076890aef3158ae80352d5:-1348242385,3498cb5477076890ccf3a917b139863f:893854029,896883d00007689011897e8ef95d6850:1613130114,6f16c75c05c3689049dcf7998a34cc43:354330663,f3c30bd4f5c36890cb41cb44a0544d6a:-1932242068,c8630f9420c36890149eb6e9afb6dd98:-682573571,8b520f10c3c36890dff4c2d61d4d1951:-444050769,9ff1c7dc7383689092d239cbc138f8e0:-1605302488,41c143902fc3689063268b85c6051286:-830996160,5951c39ca283689013a564ed977e3450:-89999866,42fe72980c83689084c09830d3ff611c:-1200354796,6efcfed0b58368904f20cb579c9e8d33:1433376187,e1dcb2149c836890dfc79f372fffc371:717834826,6e7a7e5cc44368901be229c7380d24f7:594970212,5bf9f61ccf4368909246d6064714f58e:1964356993,ad19b29855436890bf156b7b62fdb877:-2143398006,e2f8ba58c6436890224c5e93723dbed8:1205058080,cb887a18fa436890b84032e8bdae0772:2095157956,e548fe54624368908727a0b07bd01917:902035913,74387ad4f0436890dab12cc32f1d9a7c:20685643,699776549c436890d3ee2df83a131d10:-403061906,5034ba5884036890edc8714c42acf0f5:1495177332,a2a6ea94828f289029503e7b4cebeb9c:-483117387,77bf92903a4f2890a3a55fd90e3c7466:955600024,2ebf96906f4f2890f122e9767932bd36:158206966,bc9f1a50d74f28904d90781030a9200e:45879571,998f52509e4f28905d7fab4ea4a3957c:-183723219,151f9210e24f2890948d6e416a94ddd9:809259869</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_d49176d01b036890eca40dcbe54bcbf9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.TicketApproversUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TicketApproversUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TicketApproversUtils = Class.create();
+TicketApproversUtils.prototype = {
+    initialize: function() {
+		this.HELPER = new TicketApproversHelper();
+    },
+	
+	getApprovals: function (id){
+		return this.HELPER.getApprovals(id);
+	},
+
+    type: 'TicketApproversUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-18 14:04:06&lt;/sys_created_on&gt;&lt;sys_id&gt;d49176d01b036890eca40dcbe54bcbf9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TicketApproversUtils&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d49176d01b036890eca40dcbe54bcbf9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-18 14:04:06&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-508378061</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>5630a0f81b07289032822170f54bcb4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17845a68f680000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>TicketApproversUtils</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>e2b172d0b00368900a74cc6487ae6e63</update_guid>
+<update_guid_history>e2b172d0b00368900a74cc6487ae6e63:-508378061</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rel_widget_clone_1d1f92101b4f2890eca40dcbe54bcbdd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="ALP: Ticket Approvers">191f92101b4f2890eca40dcbe54bcbd6</child><cloned>2019-12-24 21:18:24</cloned><last_validated>2019-12-24 21:18:24</last_validated><parent display_value="Ticket Attachments">9ee37281d7033100a9ad1e173e24d457</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function attachMate($scope, nowAttachmentHandler, $rootScope, spUtil, spModal, $log, spAriaUtil,$document) {
+	$scope.errorMessages = [];
+	$scope.attachmentHandler = new nowAttachmentHandler(setAttachments, appendError);
+	$scope.data.action = "";
+
+	spUtil.recordWatch($scope, "sys_attachment", "table_sys_id=" + $scope.data.sys_id, function(response, data) {
+		$scope.attachmentHandler.getAttachmentList();
+		if (response.data) {
+			var options = {};
+			options.operation = response.data.operation;
+			options.filename = response.data.display_value;
+			options.sys_id = $scope.data.sys_id;
+			options.table = $scope.data.table; 
+			options.state = (response.data.record &amp;&amp; response.data.record.state) ? response.data.record.state.value : "";
+			//broadcast only if operation is update...we don't need insert and other record updates for now
+			if (options.operation === "update" &amp;&amp; options.state === "not_available")
+			$rootScope.$broadcast("attachment.updated",options);
+		}
+	});
+
+	$scope.$evalAsync(function() {
+		$scope.attachmentHandler.setParams($scope.data.table, $scope.data.sys_id, 1024 * 1024 * $scope.data.maxAttachmentSize);
+		$scope.attachmentHandler.getAttachmentList();
+	});
+
+	$scope.hasAttachments = function() {
+		return $scope.attachments &amp;&amp; $scope.attachments.length != 0;
+	};
+
+	$scope.canWrite = function() {
+		return $scope.data.canWrite;
+	};
+
+	$scope.confirmDeleteAttachment = function(attachment) {
+		var appendTo = $scope.data.appendToId ? $document.find('#'+$scope.data.appendToId) : null;
+		spModal.confirm("${Delete Attachment?}",  appendTo).then(function() {
+				$scope.attachmentHandler.deleteAttachment(attachment);
+		});
+	};
+
+	$scope.$on('dialog.upload_too_large.show', function(e){
+		$log.error($scope.data.largeAttachmentMsg);
+		spUtil.addErrorMessage($scope.data.largeAttachmentMsg);
+	});
+
+	$scope.$on('added_attachment', function(evt) {
+		$scope.data.action = "added";
+		spUtil.update($scope);
+	});
+	
+	$scope.$on('sn.attachment.scanned', function(evt) {
+		$scope.attachmentHandler.getAttachmentList("list");
+	});
+	
+	$scope.$on('sp.record.can_write', function(evt, answer) {
+		$scope.data.canWrite = answer;
+	});
+
+	function appendError(error) {
+		$scope.errorMessages.push(error);
+		spUtil.addErrorMessage(error.msg + error.fileName);
+	}
+
+	function setAttachments(attachments, action) {
+		if ($scope.submitting == true)
+			return;
+
+		$scope.attachments = attachments;
+		if (!action)
+			return;
+		
+		if (action === "added") {
+			spAriaUtil.sendLiveMessage($scope.data.attachmentSuccessMsg);
+		}
+
+		$scope.data.action = action;
+		spUtil.update($scope);
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.sp-drop-area {
+  display: block;
+  padding: 30px;
+  width: 100%;
+  border: 1px dashed $panel-default-border;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;widget-ticket-attachments&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Ticket Attachments&lt;/name&gt;&lt;option_schema&gt;[{"hint":"ID of referenced record","name":"record_id","section":"Data","label":"Record ID","type":"string"},{"hint":"Table name of referenced record","name":"record_table","section":"Data","label":"Record Table","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	data.sys_id = input.sys_id || options.record_id || $sp.getParameter("sys_id");
+	data.table = input.table || options.record_table || $sp.getParameter("table");
+	data.appendToId = options.appendToId;
+	data.table = _getActualTable(data.table, data.sys_id);
+	data.maxAttachmentSize = parseInt(gs.getProperty("com.glide.attachment.max_size", 1024));
+	if (isNaN(data.maxAttachmentSize))
+		data.maxAttachmentSize = 24;
+	data.largeAttachmentMsg = gs.getMessage("Attached files must be smaller than {0} - please try again", "" + data.maxAttachmentSize + "MB");
+	data.attachmentSuccessMsg = gs.getMessage("Attachment successfully uploaded");
+	
+	if (!data.table || !data.sys_id)
+		return;
+
+	var gr = new GlideRecord(data.table);
+	if (!gr.isValid())
+		return;
+	
+	if (!gr.get(data.sys_id))
+		return;
+
+	if (input &amp;&amp; input.action == "deleted") {
+		gr.comments = input.action + " an attachment";
+		gr.update();
+	}
+
+	data.canWrite = gr.canWrite();
+	data.canAttach = gs.hasRole(gs.getProperty("glide.attachment.role")) &amp;&amp; GlideTableDescriptor.get(data.table).getED().getAttribute("no_attachment") != "true";
+	data.canRead = gr.canRead();
+
+	function _getActualTable(table, id) {
+		if (!table)
+			return table;
+		
+		var rec = new GlideRecord(table);
+		if (!rec.isValid())
+			return table;
+		
+		if (rec.get(id) &amp;&amp; rec.getValue('sys_class_name')) {
+			return rec.getValue('sys_class_name');
+		}
+		return table;
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-03-25 16:06:34&lt;/sys_created_on&gt;&lt;sys_id&gt;9ee37281d7033100a9ad1e173e24d457&lt;/sys_id&gt;&lt;sys_mod_count&gt;152&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ticket Attachments&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;5d5096141b14001025672fc13b4bcbd7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_9ee37281d7033100a9ad1e173e24d457&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-20 12:45:58&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-if="data.canRead" class="panel panel-{{options.color}} b"&gt;
+  &lt;div class="panel-heading padder-b-none"&gt;
+    &lt;h2 class="h4 sp-attachments-header panel-title pull-left"&gt;
+      ${Attachments}
+    &lt;/h2&gt;
+    &lt;div ng-if="::(data.canWrite &amp;&amp; data.canAttach)"&gt;
+      &lt;sp-attachment-button&gt;&lt;/sp-attachment-button&gt;
+    &lt;/div&gt;
+    &lt;div class="clearfix"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- small device - hide body unless there are attachments --&gt;
+  &lt;div class="panel-body" ng-class="{'hidden-xs': !hasAttachments()}"&gt;
+    &lt;div ng-if="data.canWrite &amp;&amp; data.canAttach" ng-file-drop="attachmentHandler.onFileSelect($files)" ng-multiple="true" class="sp-attachments"&gt;
+      &lt;div class="sp-no-attachments text-center text-italic text-muted" ng-show="!hasAttachments()"&gt;
+        &lt;em class="sp-drop-area"&gt;${Drop files here}&lt;/em&gt;
+      &lt;/div&gt;
+      &lt;now-attachments-list template="sp_attachment" /&gt;
+    &lt;/div&gt;
+
+    &lt;div ng-if="!data.canWrite || !data.canAttach" class="sp-attachments"&gt;
+      &lt;div class="sp-no-attachments text-center text-muted" ng-show="!hasAttachments()"&gt;
+        &lt;em&gt;${There are no attachments}&lt;/em&gt;
+      &lt;/div&gt;
+      &lt;now-attachments-list template="sp_attachment" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- no attachments msg at phone size when can't write --&gt;
+  &lt;div class="panel-body visible-xs-block" ng-if="!hasAttachments() &amp;&amp; (!data.canWrite || !data.canAttach)"&gt;
+    &lt;div class="sp-no-attachments text-center text-muted"&gt;
+      &lt;em&gt;${There are no attachments}&lt;/em&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>otavio.almeida@alparservice.com.br</sys_created_by><sys_created_on>2021-03-18 12:42:39</sys_created_on><sys_id>1d1f92101b4f2890eca40dcbe54bcbdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>191f92101b4f2890eca40dcbe54bcbd6</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rel_widget_clone_1d1f92101b4f2890eca40dcbe54bcbdd</sys_update_name><sys_updated_by>otavio.almeida@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 12:42:39</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+<payload_hash>-1257353860</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>5a30a0f81b07289032822170f54bcb49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>178455bfc5d0000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>191f92101b4f2890eca40dcbe54bcbd6</target_name>
+<type>Widget Clone</type>
+<update_domain>global</update_domain>
+<update_guid>991f92109e4f2890571af2a87c884edf</update_guid>
+<update_guid_history>991f92109e4f2890571af2a87c884edf:-1257353860</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>m2m_sp_widget_dependency_551f92101b4f2890eca40dcbe54bcbda</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="dialog-polyfill">2eaf31f30b301200b0b02c6317673a84</sp_dependency><sp_widget display_value="ALP: Ticket Approvers">191f92101b4f2890eca40dcbe54bcbd6</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>otavio.almeida@alparservice.com.br</sys_created_by><sys_created_on>2021-03-18 12:42:39</sys_created_on><sys_id>551f92101b4f2890eca40dcbe54bcbda</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dialog-polyfill.ALP: Ticket Approvers</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>m2m_sp_widget_dependency_551f92101b4f2890eca40dcbe54bcbda</sys_update_name><sys_updated_by>otavio.almeida@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 12:42:39</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+<payload_hash>1287713469</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>5e30a0f81b07289032822170f54bcb48</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>178455bfc1e0000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>dialog-polyfill.ALP: Ticket Approvers</target_name>
+<type>Widget Dependency</type>
+<update_domain>global</update_domain>
+<update_guid>591f92100c4f2890db880f5594b6f2dc</update_guid>
+<update_guid_history>591f92100c4f2890db880f5594b6f2dc:1287713469</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_765172d01b036890eca40dcbe54bcba8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.TicketApproversHelper&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TicketApproversHelper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TicketApproversHelper = Class.create();
+TicketApproversHelper.prototype = {
+    initialize: function() {
+		this.PERSISTENCE = new TicketApproversPersistence();
+    },
+	
+	getApprovals: function (id){
+		return this.PERSISTENCE.getApprovals(id);
+	},
+
+    type: 'TicketApproversHelper'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-18 14:03:22&lt;/sys_created_on&gt;&lt;sys_id&gt;765172d01b036890eca40dcbe54bcba8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TicketApproversHelper&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_765172d01b036890eca40dcbe54bcba8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-18 14:03:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>258718192</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>9230a0f81b07289032822170f54bcb4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17845a5e2260000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>TicketApproversHelper</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>bb81b2549603689047945a81659633f7</update_guid>
+<update_guid_history>bb81b2549603689047945a81659633f7:258718192</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_e75836af1b398014c975fc4e4b4bcbdc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">493ff950d7000200a9ad1e173e24d4be</sp_column><sp_widget display_value="ALP: Ticket Conversations">94483e2f1b398014c975fc4e4b4bcb33</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>erick.gomes@alparservice.com.br</sys_created_by><sys_created_on>2019-12-24 21:12:35</sys_created_on><sys_id>e75836af1b398014c975fc4e4b4bcbdc</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_e75836af1b398014c975fc4e4b4bcbdc</sys_update_name><sys_updated_by>otavio.almeida@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 15:41:02</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e75836af1b398014c975fc4e4b4bcbdc"/></record_update>]]></payload>
+<payload_hash>-1762547129</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>9630a0f81b07289032822170f54bcb49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17845ff4d440000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>92e7cbd08e076890447ff9b24f7431df</update_guid>
+<update_guid_history>92e7cbd08e076890447ff9b24f7431df:-1762547129,a089015fcb1a48105e3e9aeb09592a83:-108609624,27468d1b5c1a4810b1c44f392e66da90:-1762547129,235836afe93980149e7f14b2ce8a3cde:-108609624</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_5b3ff950d7000200a9ad1e173e24d4dd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">493ff950d7000200a9ad1e173e24d4be</sp_column><sp_widget display_value="Barcode">12b8f3d3d7033100a9ad1e173e24d406</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2015-05-11 21:23:55</sys_created_on><sys_id>5b3ff950d7000200a9ad1e173e24d4dd</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Barcode</sys_name><sys_package display_value="Service Portal - Core" source="com.glide.service-portal">5d5096141b14001025672fc13b4bcbd7</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_instance_5b3ff950d7000200a9ad1e173e24d4dd</sys_update_name><sys_updated_by>otavio.almeida@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 15:41:02</sys_updated_on><title>Barcode</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=5b3ff950d7000200a9ad1e173e24d4dd"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>5b3ff950d7000200a9ad1e173e24d4dd</documentkey><fieldname>title</fieldname><language>pb</language><sys_created_by>marcos.santos@alparservice.com.br</sys_created_by><sys_created_on>2019-11-25 18:34:11</sys_created_on><sys_id>580ef09e1b198810c3ea53dc4b4bcb0f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>marcos.santos@alparservice.com.br</sys_updated_by><sys_updated_on>2019-11-25 18:34:11</sys_updated_on><tablename>sp_instance</tablename><value>Código de Barras</value></sys_translated_text></record_update>]]></payload>
+<payload_hash>-1808475444</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>d230a0f81b07289032822170f54bcb49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17845ff4d200000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>Barcode</target_name>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1ae7cbd0a9076890141cb6d04fd0eddb</update_guid>
+<update_guid_history>1ae7cbd0a9076890141cb6d04fd0eddb:-1808475444,ef5836af59398014512b23f82aadfeda:460099979,e35836af563980148eaf6a18deba7e2b:-1870608980</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_message_8342e3d41b47649032822170f54bcb60</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message"><sys_ui_message action="INSERT_OR_UPDATE"><application/><key>There are no approvals</key><language>en</language><message>There are no approvals</message><sys_class_name>sys_ui_message</sys_class_name><sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by><sys_created_on>2021-03-18 17:36:19</sys_created_on><sys_id>8342e3d41b47649032822170f54bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_name>There are no approvals</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_message_8342e3d41b47649032822170f54bcb60</sys_update_name><sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by><sys_updated_on>2021-03-18 17:36:19</sys_updated_on></sys_ui_message></record_update>]]></payload>
+<payload_hash>-1103516549</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>da30a0f81b07289032822170f54bcb4a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1784668d6e80000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>There are no approvals</target_name>
+<type>Message</type>
+<update_domain>global</update_domain>
+<update_guid>4f42e3d408476490e6b213d8a93edf61</update_guid>
+<update_guid_history>4f42e3d408476490e6b213d8a93edf61:-1103516549</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_2608ea981b8f2890eca40dcbe54bcb88</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.TicketApproversPersistence&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TicketApproversPersistence&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TicketApproversPersistence = Class.create();
+TicketApproversPersistence.prototype = {
+    initialize: function() {
+    },
+	
+	getApprovals: function(id){
+		var response = {
+			approvers: [],
+			groups: []
+		};
+		
+		var grApp = new GlideRecord('sysapproval_approver');
+		grApp.addQuery('sysapproval', id);
+		grApp.query();
+		while(grApp.next()){
+			if(grApp.group.getValue()){
+				this._defineGroup(grApp, response);
+			} else {
+				this._defineApprover(grApp, response);
+			}
+		}
+		return response;
+	},
+	
+	_defineGroup: function(gr, response){
+		var hasGroup = null;
+		for(var i = 0; i&lt;response.groups.length; i++){
+			if(response.groups[i].name == gr.group.assignment_group.getDisplayValue()){
+				hasGroup = i;
+				break;
+			}
+		}
+		
+		if(!hasGroup &amp;&amp; hasGroup !== 0){
+			var obj = {
+				open: false,
+				name: gr.group.assignment_group.getDisplayValue(),
+				state: {
+					displayValue: gr.group.approval.getDisplayValue(),
+					value: gr.group.approval.getValue()
+				},
+				updated: gr.group.sys_updated_on.getDisplayValue(),
+				approvals: [{
+					approver: {
+						displayValue: gr.approver.getDisplayValue(),
+						value: gr.approver.getValue()
+					},
+					state: {
+						displayValue: gr.state.getDisplayValue(),
+						value: gr.state.getValue()
+					},
+					updated: gr.sys_updated_on.getDisplayValue()
+				}]
+			};
+			response.groups.push(obj);
+		} else {
+			response.groups[hasGroup].approvals.push({
+				approver: {
+					displayValue: gr.approver.getDisplayValue(),
+					value: gr.approver.getValue()
+				},
+				state: {
+					displayValue: gr.state.getDisplayValue(),
+					value: gr.state.getValue()
+				},
+				updated: gr.sys_updated_on.getDisplayValue()
+			});
+		}
+		
+	},
+	
+	_defineApprover: function(gr, response){
+		response.approvers.push({
+			approver: {
+				displayValue: gr.approver.getDisplayValue(),
+				value: gr.approver.getValue()
+			},
+			state: {
+				displayValue: gr.state.getDisplayValue(),
+				value: gr.state.getValue()
+			},
+			updated: gr.sys_updated_on.getDisplayValue()
+		});
+	},
+
+    type: 'TicketApproversPersistence'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-18 13:42:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2608ea981b8f2890eca40dcbe54bcb88&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;TicketApproversPersistence&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2608ea981b8f2890eca40dcbe54bcb88&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;otavio.almeida@alparservice.com.br&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-18 15:19:37&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1497025209</payload_hash>
+<remote_update_set display_value="[SPRTASK0090299][ALPAR][Visibilidade dos aprovadores das requisições no portal]">1a30a0f81b07289032822170f54bcb48</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>leonardo.bianchi@alparservice.com.br</sys_created_by>
+<sys_created_on>2021-03-19 16:45:21</sys_created_on>
+<sys_id>de30a0f81b07289032822170f54bcb49</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17845ebb08a0000001</sys_recorded_at>
+<sys_updated_by>leonardo.bianchi@alparservice.com.br</sys_updated_by>
+<sys_updated_on>2021-03-19 16:45:21</sys_updated_on>
+<table/>
+<target_name>TicketApproversPersistence</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>e403cfd013c36890a0c740e51898fdf9</update_guid>
+<update_guid_history>e403cfd013c36890a0c740e51898fdf9:-1497025209,fe0cbe50a1836890e67b050d6e7c17af:516497016,92c4fa5c58036890db1b56ec34b1ffbf:326744422,7411b2d030036890c5ec8d640329ef4b:1580125449,aebf2edc7fcf28903dbbac8fdc718280:-358196586,689f2edc87cf2890d5b44625f9376364:-1512977926,020f269c74cf28905f522164890195d4:339814827,e5fe261c2dcf28905e91e867d6008274:-2105490599,a1cee65c9fcf2890b2443a60ca01f3d2:-519599965,fe9e6258aecf28907e13e1fd7d4ad64c:-1346783591,335e2ed899cf28907bdafe41a1d3fbfa:1548335171,b04e62d8b8cf2890c33b049a36a9a09b:-1349190383,4aed625886cf28909a1a7a025f5f650f:-1258736329,0acd62984ecf28900e7b2f59c90a199d:-1651613688,18bdae588fcf28900a2ee6b25efca7b2:1990610545,da8dee58c4cf2890dd9167e3fa965203:35036207,45dc2618d0cf289078815e16ecc44c5a:197385475</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
