@@ -1,0 +1,56 @@
+.csa-panel-form-heading{
+ margin-top: 16px; 
+}
+
+table{
+  margin-bottom: 0; 
+}
+
+.csa-panel-body{
+  padding: 0 !important;
+}
+
+.panel-body{
+  padding: 8px 0 !important;
+}
+
+.fa-chevron-down, .fa-chevron-up{
+  margin-left: 8px; 
+}
+
+.fa-user, .fa-users{
+  color: #f15a24 ;
+}
+
+.container-state{
+  display: flex;
+  align-items: center;
+
+  .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    margin-right: 8px;
+    margin-top: -1px;
+  }
+
+  .dot-warning{
+    background-color: khaki;
+  }
+
+  .dot-danger{
+    background-color: tomato;
+  }
+
+  .dot-success{
+    background-color: lightgreen;
+  }
+
+  .dot-default{
+    background-color: #dddddd;
+  }
+  
+  .dot-orange{
+    background-color: orange;
+  }
+}
